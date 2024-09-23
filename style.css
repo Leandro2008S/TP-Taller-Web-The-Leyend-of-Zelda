@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background-image: url("./images/background\ de\ Hyrule.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo-header{
+    text-align: center;
+}
+
+.titulo{
+    height:200px;
+    margin: 26px;
+}
+
+.ul-menu{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(88, 88, 88);
+}
+.item-a{
+    font-size: 30px;
+    color: white;
+    display: block;
+    text-decoration: none;/*elimino el subrayado de la etiqueta a*/
+}
+
+.h1-titulo{
+    text-align: center;
+    margin: 16px 0;
+}
+.section-imagen{
+    text-align: center;
+}
+.section-imagen img{
+    width: 80%;
+}
+
+.section-introduccion{
+    padding: 30px;
+}
+
+.section-introduccion p{
+    text-align: justify;
+    font-size: 25px;
+}
+
+.section-introduccion ul{
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.section-introduccion h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #173F1B;
+    height: 100%;
+}
+.footer-h4{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/************************************************************/
+/*historia*/
+.imagen-historia{
+    width: 100%;
+}
+
+.section-historia{
+    display:flex;
+    gap: 30px;
+    padding: 16px 30px;
+}
+
+.historia-texto p{
+    text-align: justify;
+}
+/**********************************************/
+/*personaje*/
+.un-personaje{
+    display: flex;
+    margin: 30px;
+}
+
+.personaje-imagen{
+    width: 300px;
+}
+
+.personaje-ganondorf, .personaje-ruto{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.div-caracteristicas{
+    padding-left: 16px;
+}
+
+.div-caracteristicas ul{
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+.div-caracteristicas h2{
+    margin-bottom: 16px;
+}
+
+/**********************************************/
+/*CONTACTO*/
+.main-info{
+    margin: 20px 0;
+}
+.div-info{
+    width: 77%;
+    background-color: #86b78b;
+    margin: auto; /*lo centro*/
+    padding: 20px; 
+    font-size: 27px; 
+    margin-top: 16px;
+    text-align: center;  
+}
+
+
+
